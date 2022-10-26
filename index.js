@@ -37,13 +37,13 @@ app.listen(port, function(){
 	// Define a function to filter releases.
 	function filterRelease(release) {
 		// Filter out prereleases.
-		console.log(release);
+		console.log({release});
 		return release.prerelease === false;
 	}
 
 	// Define a function to filter assets.
 	function filterAsset(asset) {
-		console.log(asset);
+		console.log({asset});
 		// Select assets that contain the string 'windows'.
 		return asset.name.includes('windows');
 	}
