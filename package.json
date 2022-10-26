@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ."
   },
-  "repository": {
-    "type": "git",
-    "url": "auto-update-node-app"
+  "auto-updater":{
+    "repo":"/ARM-developer/auto-update-node-app",
+    "branch":"production"
   },
   "author": "ARM-developer",
   "license": "ISC",
