@@ -1,0 +1,22 @@
+{
+  "name": "autoupdateappnode",
+  "version": "0.1.0",
+  "description": "Update app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "auto-update-node-app"
+  },
+  "author": "ARM-developer",
+  "license": "ISC",
+  "dependencies": {
+    "auto-updater": "1.0.2",
+    "body-parser": "1.20.1",
+    "express": "4.18.2",
+    "nodemon": "2.0.20"
+  }
+}
